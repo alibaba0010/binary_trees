@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 /**
- * binary_tree_insert_left - add a node in the left of the parent
+ * binary_tree_insert_left - add a node in the left of the parent node
  * if it exists it move down one level and add the new node first
  * @parent: parent of the specified node
- * @value: value of the node
- * Return: NULL if it fails or the new node
+ * @value: value of the node to be inserted
+ * Return: NULL if it fails 
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {

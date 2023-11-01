@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 /**
- * check_sub_tree_Left: check if all nodes are smaller than
+ * check_sub_tree_Left: check if all nodes 
+ * are smaller than
  * the root specified
  * @node: node in the tree to verify the condition
  * @max: value to compare
@@ -26,7 +27,8 @@ int check_sub_tree_Left(const binary_tree_t *node, int max)
 	}
 }
 /**
- * check_sub_tree_right - check if all the nodes are bigger than the
+ * check_sub_tree_right - check if all the nodes 
+ * are bigger than the
  * root specified
  * @node: node in the tree to verify the condition
  * @min: value to compare
@@ -54,9 +56,11 @@ int check_sub_tree_Right(const binary_tree_t *node, int min)
 /**
  * binary_tree_is_bst - says if a tree is a binary
  * search tree or not
- * the process here first verify that the left_node node is smaller than the root
+ * the process here first verify that the left_node node is 
+ * smaller than the root
  * then verify if the right_node node is bigger than the root.
- * after that verify if the left_node subtree has nodes smaller than the root
+ * after that verify if the left_node subtree has nodes 
+ * smaller than the root
  * and the right_node subtree has bigger nodes than root
  * @tree: node that point to the tree to check
  * Return: 1 if it is a BST else 0 if not

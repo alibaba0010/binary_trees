@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height - Function that measures the height 
+ * binary_tree_height - Function that measures the height
  * of a binary tree
  * @tree: tree to loop through
  * Return: the height
@@ -46,7 +46,8 @@ int bal_avl(const binary_tree_t *tree, int lower, int high)
 		}
 		height_len = binary_tree_height(tree->left);
 		height_row = binary_tree_height(tree->right);
-		balancer = height_len > height_row ? height_len - height_row : height_row - height_len;
+		balancer = height_len > height_row ? 
+												height_len - height_row : height_row - height_len;
 		if (balancer > 1)
 		{
 			return (0);

@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_postorder - print elements of the tree using post-order traversal
+ * binary_tree_postorder-print elements of the tree using post-order traversal
  * @tree: tree to loop through
  * @func: function to use to cjheck node
  * Return: Nothing

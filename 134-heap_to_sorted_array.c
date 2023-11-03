@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * count_h_nodes - Counts the number of 
+ * count_h_nodes - Counts the number of
  * nodes inside a tree
  * @root: Pointer to tree's root node
  *
@@ -17,7 +17,7 @@ int count_h_nodes(binary_tree_t *root)
 }
 
 /**
- * heap_to_sorted_array - Creates a 
+ * heap_to_sorted_array - Creates a
  * sorted array from a max heap
  * @heap: Pointer to heap's node
  * @size: Pointer to arrays size

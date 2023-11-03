@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * aux_sort - create a tree using the half 
+ * aux_sort - create a tree using the half
  * of the element of an array
  * @parent: parent of the node to create
  * @array: sorted array

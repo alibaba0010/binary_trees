@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * successor - get the next successor i mean the min node in 
+ * successor - get the next successor i mean the min node in
  * the right_node subtree
  * @node: tree to check
  * Return: the minimum value of the tree

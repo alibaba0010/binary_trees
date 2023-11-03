@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 /**
- * array_to_bst - turns an array to a BST 
- * @array: array to turns to BST 
+ * array_to_bst - turns an array to a BST
+ * @array: array to turns to BST
  * @size: size of array
  * Return: BST from array
  */

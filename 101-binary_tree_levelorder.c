@@ -33,7 +33,7 @@ size_t binary_tree_depth(const binary_tree_t *tree)
 	return ((tree && tree->parent) ? 1 + binary_tree_depth(tree->parent) : 0);
 }
 /**
- * linked_node - this function makes a linked list from the depth level and node
+ * linked_node-this function makes a linked list from the depth level and node
  * @head: pointer to head of linked list
  * @tree: node to store
  * @level: depth of node to store

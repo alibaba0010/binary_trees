@@ -4,8 +4,8 @@
  * @root: pointer to root of tree
  * @parent: parent of the specified node
  * @value: value of the node to be inserted
- * Return: NULL if it fails 
- */
+ * Return: NULL if it fails
+ * */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
@@ -29,7 +29,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 		new_node->right = parent->right;
 		parent->right->parent = new_node;
 	}
-	parent->right = new_node;	
+	parent->right = new_node;
 	return (new_node);
 }
 
